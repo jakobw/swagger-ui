@@ -235,7 +235,7 @@ export default class Response extends React.Component {
             </section>
           ) : null}
 
-          { example || schema ? (
+          { mediaTypeExample || schema ? (
             <ModelExample
               specPath={specPathWithPossibleSchema}
               getComponent={ getComponent }
